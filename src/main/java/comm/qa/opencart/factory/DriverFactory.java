@@ -14,6 +14,7 @@ public class DriverFactory {
 
             case "chrome":
                 driver = new ChromeDriver();
+                System.out.println("chrome is launched");
                 break;
             case "firefox":
                 driver = new FirefoxDriver();
@@ -26,9 +27,11 @@ public class DriverFactory {
                 System.out.println("invalid browser name ");
 
         }
-        driver.manage().window().maximize();
+
         driver.manage().deleteAllCookies();
         driver.get("https://naveenautomationlabs.com/opencart/index.php?route=account/login");
+        driver.manage().window().maximize();
+        System.out.println("maximized screen");
         return driver;
     }
 }

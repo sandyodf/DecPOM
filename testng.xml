@@ -1,0 +1,2 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd"><suite name="All Test Suite"><test verbose="2" preserve-order="true" name="/Users/deepu/Documents/POMopencart/src/test/java/com/qa/opencart/test/LoginTest.java"><classes><class name="com.qa.opencart.test.LoginTest"><methods><include name="isforgotpasswordDisplayed_Test"/><include name="isLogoDisplayedTest"/><include name="LinksTest"/><include name="credentials"/><include name="doLoginTestWithOutUsername"/></methods></class></classes></test></suite>
