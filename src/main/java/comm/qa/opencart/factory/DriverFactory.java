@@ -31,7 +31,7 @@ public class DriverFactory {
         driver.manage().deleteAllCookies();
         driver.get("https://naveenautomationlabs.com/opencart/index.php?route=account/login");
         driver.manage().window().maximize();
-        System.out.println("maximized screen");
+        System.out.println("maximized screen...");
         return driver;
     }
 }
